@@ -1,0 +1,72 @@
+{
+  "categorical_features": {
+    "loan_status": [
+      "Paid", 
+      "Default"
+    ], 
+    "home_ownership": [
+      "RENT", 
+      "OWN", 
+      "MORTGAGE", 
+      "OTHER"
+    ], 
+    "purpose": [
+      "debt_consolidation", 
+      "other", 
+      "wedding", 
+      "medical", 
+      "major_purchase", 
+      "home_improvement", 
+      "credit_card", 
+      "car", 
+      "house", 
+      "moving", 
+      "vacation", 
+      "small_business", 
+      "renewable_energy", 
+      "educational"
+    ], 
+    "verification_status": [
+      "Verified", 
+      "Not Verified", 
+      "Source Verified"
+    ]
+  }, 
+  "feature_names": [
+    "funded_amnt", 
+    "term", 
+    "int_rate", 
+    "installment", 
+    "emp_length", 
+    "home_ownership", 
+    "annual_inc", 
+    "verification_status", 
+    "purpose", 
+    "dti", 
+    "delinq_2yrs", 
+    "inq_last_6mths", 
+    "open_acc", 
+    "pub_rec", 
+    "revol_bal", 
+    "revol_util", 
+    "rFunAmt_AI", 
+    "rTotPay_AI", 
+    "rRevBal_AI", 
+    "rAPay_AI", 
+    "pdi", 
+    "pdi_LSFT", 
+    "gdp", 
+    "gdp_LSFT", 
+    "3yr_rate", 
+    "3yr_LSFT", 
+    "cc_rate", 
+    "unemp", 
+    "unemp_LSFT", 
+    "spread", 
+    "loan_status"
+  ], 
+  "target_names": [
+    "Paid", 
+    "Default"
+  ]
+}
